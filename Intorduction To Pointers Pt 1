@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main(){
+  int a = 12;
+  int *ptr = &a;
+  int *c = ptr;
+  cout<<a<<endl;
+  cout<<*ptr<<endl;
+  cout<<ptr<<endl;
+  cout<<c<<endl;
+  cout<<*c<<endl;
+}
